@@ -3,6 +3,27 @@
 
 支持常规TextView的属性，具体使用方法可以参考例子
 
+
+
+使用方式：
+
+```groovy
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+dependencies {
+	        implementation 'com.github.a369155609:ScrollText:v0.0.4'
+}
+```
+
+
+
 ```Kotlin
 val rollingView = findViewById<TextScrollView>(R.id.rollText)
 rollingView.setNum("2.36","7.62")
