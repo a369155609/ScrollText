@@ -55,12 +55,10 @@ dependencies {
 
     implementation("androidx.appcompat:appcompat:1.2.0")
     implementation("androidx.constraintlayout:constraintlayout:2.0.1")
+    implementation("com.github.a369155609:ScrollText:v0.0.4")
 
 
-
-//    implementation("com.github.a369155609:ScrollText:v0.0.2")
-
-    implementation(project(":scrolltext"))
+//    implementation(project(":scrolltext"))
 
 
 
